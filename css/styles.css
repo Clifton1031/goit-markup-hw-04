@@ -49,21 +49,6 @@ body {
 
 /* WEBSTUDIO Styling (Header)*/
 
-.hero {
-    background: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/people-office-1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 600px;
-    text-align: center;
-}
-/*.hero {
-    background-color: var(--navyblue);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    text-align: center;
-}*/
-
 .logo-studio-top {
     color: var(--navyblue);
     padding-right: 50px;
@@ -90,6 +75,32 @@ body {
     padding-right: 300px;
 }
 /*Main Section*/
+/*Hero Section*/
+.hero {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+}
+/*.hero {
+    background-color: var(--navyblue);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    text-align: center;
+}*/
+/*End of hero section*/
+
+/*Component Section*/
+
+.component-icon {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--cloud);
+}
+
+
 .component {
     display: inline-flex;
 }
@@ -150,6 +161,8 @@ body {
     /* 150% */
     letter-spacing: 0.32px;
 }
+/*End of component section*/
+
 /*What we do section*/
 .gadgets-images {
     display: inline-flex;
@@ -175,7 +188,7 @@ body {
 /*Our team*/
 .teamlayout {
     width: 1440px;
-    height: 732px;
+    height: 780px;
     flex-shrink: 0;
     background: var(--cloud);
     border-radius: 0px 0px 4px 4px;
@@ -183,14 +196,69 @@ body {
 }
 
 .person-images {
-    padding-bottom: 120px;
+    /*padding-bottom: 120px;*/
+    padding-bottom: 0;
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     gap: 40px;
     justify-content: center;
 }
 
+.teamlayout li{
+background-color: var(--white);
+}
+
+.team-icon {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.team-icon {
+    background-color: var(--white);
+}*/
+
+.team-icon-social {
+    background-color: var(--iris);
+    border-radius: 50%;
+    fill: var(--white);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-title {
+    margin-top: 0;
+}
+
+.list-icon {
+    padding: 32px;
+}
+
 /*End of Our team*/
+
+/*Customer Section*/
+
+.customer-section {
+    width: 1128px;
+    height: 200px;
+    padding: 120px 156px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.customer-icon {
+    border: 1px solid #8e8f99;
+    
+}
+
+.customer-icon svg {
+    fill: #8e8f99;
+}
+/*End of customer Section*/
 
 /*---------End of Main Section---------*/
 /*ContactSection*/
@@ -225,7 +293,7 @@ body {
 /* Hero Styling */
 .hero-text {
     color: var(--white);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;/* 107.143% */
@@ -251,11 +319,13 @@ body {
 }
 
 .section-title {
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 2.5;/* 111.111% */
     letter-spacing: 0.72px;
+    padding-top: 120px;
 }
 
 
@@ -278,6 +348,30 @@ body {
     padding-left: 156px;
     padding-top: 101.5px;
    
+}
+
+.socialmedia {
+    width: 208px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.social-media-head {
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    display: contents;
+}
+
+.footer-sectioning {
+    display: flex;
+    gap: 120px;
+}
+
+.social-media-icon {
+    padding-top: 16px;
 }
 /* End of Footer Styling*/
 
